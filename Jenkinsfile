@@ -9,7 +9,7 @@ pipeline {
                 AWS_ACCESS_KEY = credentials('aws-access-credential')
             }
             steps {
-                sh 'packer build ${AMI_NAME}-config.json'
+                sh 'packer build ${AMI_NAME}-packer-config.json'
             }
         }
     }
