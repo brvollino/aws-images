@@ -12,7 +12,9 @@
       "source_ami": "ami-09f4cd7c0b533b081",
       "instance_type": "t2.micro",
       "ssh_username": "ubuntu",
-      "ami_name": "ubuntu-with-java-{{timestamp}}"
+      "ami_name": "ubuntu-with-java",
+      "force_deregister": true,
+      "force_delete_snapshot": true
     }
   ],
   "provisioners": [
