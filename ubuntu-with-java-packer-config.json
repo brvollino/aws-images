@@ -9,7 +9,7 @@
       "access_key": "{{user `aws_access_key`}}",
       "secret_key": "{{user `aws_secret_key`}}",
       "region": "sa-east-1",
-      "source_ami": "ami-09f4cd7c0b533b081",
+      "source_ami": "ami-0d18143fe8c304863",
       "instance_type": "t2.micro",
       "ssh_username": "ubuntu",
       "ami_name": "ubuntu-with-java",
@@ -22,7 +22,7 @@
       "type": "shell",
       "inline": [
         "sudo apt-get update",
-        "sudo apt-get install -y openjdk-8-jre"
+        "sudo apt-get install -y openjdk-11-jre"
       ]
     }
   ]
