@@ -23,7 +23,8 @@
       "inline": [
         "sudo apt-get update",
         "sudo apt-get install -y openjdk-11-jre"
-      ]
+      ],
+      "pause_before": "10s"
     }
   ]
 }
