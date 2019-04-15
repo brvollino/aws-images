@@ -21,7 +21,7 @@
     {
       "type": "shell",
       "inline": [
-        "sudo apt-get update && sudo apt-get install -y openjdk-11-jdk"
+        "sudo apt-get update && sudo apt-get --ignore-missing install -y openjdk-11-jre"
       ]
     }
   ]
